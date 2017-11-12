@@ -1,0 +1,53 @@
+/*----------login--------------*/
+.login {
+  background: #ac1818; }
+
+.login a {
+  color: #fff; }
+
+/*----------end login--------------*/
+/*----------nav--------------*/
+#main-menu ul li a:hover, #main-menu ul a.has-submenu.highlighted {
+  background: #ac1818; }
+
+#main-menu ul li > a:hover, #main-menu ul a.has-submenu.highlighted {
+  color: #fff; }
+
+@media (max-width: 767px) {
+  #main-menu ul li a:hover, #main-menu ul a.has-submenu.highlighted {
+    background: transparent; }
+
+  #main-menu ul li > a:hover, #main-menu ul a.has-submenu.highlighted {
+    color: #ac1818; }
+
+  .main-menu .fa-bars {
+    color: #2c6343; } }
+/*----------nav--------------*/
+/*----------search--------------*/
+.search .form {
+  background: #ac1818; }
+
+.search .text-search {
+  background: #d21d1d; }
+
+/*----------end search--------------*/
+/*---------- danh sach the loai--------------*/
+.danhsach-theloai .nav-tabs > li.active > a, .danhsach-theloai .nav-tabs > li.active > a:focus, .danhsach-theloai .nav-tabs > li.active > a:hover,
+.heading2.h-before:before {
+  background: #ac1818; }
+
+.lists-book-fullscreen .nav-tabs > li.active > a,
+.lists-book-fullscreen .nav-tabs > li.active > a:focus,
+.lists-book-fullscreen .nav-tabs > li.active > a:hover {
+  background-color: #ac1818;
+  color: #fff; }
+
+.lists-book-fullscreen .text-thumb-hover {
+  background: #ac1818; }
+
+.heading2 .btn-all:hover {
+  color: #ac1818; }
+
+/*---------- end danh sach the loai--------------*/
+
+/*# sourceMappingURL=color.css.map */

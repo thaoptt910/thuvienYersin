@@ -1,0 +1,58 @@
+$bg-red:#ac1818;
+$color-white:#fff;
+$color-green:#2c6343;
+/*----------login--------------*/
+.login{
+	background:$bg-red;
+}
+.login a{
+	color:$color-white;
+}
+/*----------end login--------------*/
+/*----------nav--------------*/
+#main-menu ul li a:hover,#main-menu ul a.has-submenu.highlighted{
+	background:$bg-red;
+}
+#main-menu ul li >a:hover,#main-menu ul a.has-submenu.highlighted{
+	color:$color-white;
+}
+@media(max-width:767px){
+	#main-menu ul li a:hover,#main-menu ul a.has-submenu.highlighted{
+		background:transparent;
+	}
+	#main-menu ul li >a:hover,#main-menu ul a.has-submenu.highlighted{
+		color:$bg-red;
+	}
+	.main-menu  .fa-bars{
+		color: $color-green;
+	}
+}
+/*----------nav--------------*/
+/*----------search--------------*/
+.search .form{
+	background:$bg-red;
+}
+.search .text-search{
+    background: #d21d1d;
+}
+
+/*----------end search--------------*/
+/*---------- danh sach the loai--------------*/
+.danhsach-theloai .nav-tabs>li.active>a, .danhsach-theloai .nav-tabs>li.active>a:focus, .danhsach-theloai .nav-tabs>li.active>a:hover,
+.heading2.h-before:before
+{
+    background: $bg-red;
+}
+.lists-book-fullscreen .nav-tabs>li.active>a, 
+.lists-book-fullscreen .nav-tabs>li.active>a:focus,
+.lists-book-fullscreen .nav-tabs>li.active>a:hover{
+	background-color: $bg-red;
+	color:$color-white;
+}
+.lists-book-fullscreen .text-thumb-hover{
+  background:$bg-red;
+}
+.heading2 .btn-all:hover{
+	color:$bg-red;
+}
+/*---------- end danh sach the loai--------------*/

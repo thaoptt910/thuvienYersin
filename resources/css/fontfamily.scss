@@ -1,0 +1,10 @@
+$fontfamily:'Open Sans', Helvetica,Arial,sans-serif;
+$font-noto: "Noto Serif", serif;
+$fontweight:400;
+body{
+  font-family:$fontfamily;
+  font-weight: $fontweight;
+}
+h3,.heading1 span{
+	font-family:$font-noto;
+}
